@@ -1,0 +1,94 @@
+body{
+    margin: 20px;
+    box-sizing: border-box;
+}
+.musiclist{
+    width: 35%;
+    background-color: rgb(204, 245, 245);
+    border-radius: 10px;
+}
+.songs{
+    padding: 2px;
+    /* border: 1px solid; */
+    cursor: pointer;
+    display: flex;
+    margin: 2px;
+}
+.songs:hover{
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    /* border-radius: 50%; */
+}
+.cardImage{
+    width: 100px;
+    height: 100px;
+    /* border-radius: 50%; */
+}
+.songs h3{
+    padding-left: 31px;
+    line-height: 62px;
+}
+main{
+    display: flex;
+    /* border: 1px solid; */
+    border-radius: 14px;
+    padding: 15px;
+    background-color: rgb(103, 149, 149);
+    box-sizing: border-box;
+}
+
+.musicPlayer{
+    width: 100%;
+    background-color: #ebe8e8;
+    border-radius: 10px;
+    margin-left: 9px;
+}
+.musicplayImge{
+    width: 230px;
+    height: 230px;
+    border: 1px solid;
+    border-radius: 50%;
+    margin: 68px auto 33px auto;
+}
+.musicplayImge img{ 
+    width: 100%;
+    border-radius: 50%;
+}
+
+.songRnageAndTimeUpdate{
+    display: flex;
+    justify-content: center;
+}
+.songRnageAndTimeUpdate p{
+    padding: 0px 28px 0 28px;
+}
+.volBtn{
+    width: 45px;
+    height: 45px;
+    margin: 0 1px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(100, 100, 193);
+}
+.volBtn:hover{
+    background-color: rgb(74, 135, 188);
+}
+
+.conTrolBtn{
+    border: none;
+    background-color: #ebe8e8;
+    margin: 15px;
+    cursor: pointer;
+}
+
+input[type="range"]{
+    width: 400px;
+}
+
+
+
